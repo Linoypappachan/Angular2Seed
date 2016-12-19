@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp-webserver@0.9.1' ]
+2 info using npm@3.3.4
+3 info using node@v5.4.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 verbose stack Error: Missing template value "progressbar"
+7 verbose stack     at cloneAndObjectify (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\node_modules\npmlog\node_modules\gauge\render-template.js:67:17)
+7 verbose stack     at Array.map (native)
+7 verbose stack     at prepareItems (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\node_modules\npmlog\node_modules\gauge\render-template.js:83:25)
+7 verbose stack     at module.exports (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\node_modules\npmlog\node_modules\gauge\render-template.js:16:15)
+7 verbose stack     at Object.Plumbing.show (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\node_modules\npmlog\node_modules\gauge\plumbing.js:45:10)
+7 verbose stack     at Object.Gauge._doRedraw (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\node_modules\npmlog\node_modules\gauge\index.js:223:40)
+7 verbose stack     at null.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\node_modules\npmlog\node_modules\gauge\index.js:15:19)
+7 verbose stack     at wrapper (timers.js:275:11)
+7 verbose stack     at Timer.unrefdHandle (timers.js:312:14)
+8 verbose cwd C:\Users\linoy\Source\Repos\Angular2Seed\Angular2SeedSample\src\Angular2SeedSample
+9 error Windows_NT 10.0.14393
+10 error argv "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node.exe" "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-webserver@0.9.1"
+11 error node v5.4.1
+12 error npm  v3.3.4
+13 error code EGAUGE
+14 error Missing template value "progressbar"
+15 error If you need help, you may report this error at:
+15 error     <https://github.com/npm/npm/issues>
+16 verbose exit [ 1, true ]
